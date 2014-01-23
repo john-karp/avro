@@ -1,0 +1,22 @@
+NAME
+    Avro - Modern Data Serializer
+
+SYNOPSIS
+      use Avro;
+
+DESCRIPTION
+AUTHOR
+        Yann Kerherve E<lt>yannk@cpank.orgE<gt>
+
+CONTRIBUTORS
+        Andy Grundman <andy@hybridized.org>
+        David Bushong <dbushong@mashlogic.com>
+        Ilya Martynov <ilya@iponweb.net>
+
+COPYRIGHT
+    Copyright 2010- Yann Kerherve
+
+LICENSE
+    See LICENSE.txt
+
+SEE ALSO
