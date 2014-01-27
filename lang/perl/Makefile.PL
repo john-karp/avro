@@ -17,9 +17,13 @@
 
 use Config;
 use inc::Module::Install;
+
+my $version = `cat ../../share/VERSION.txt`;
+
 license 'apache';
-all_from 'lib/Avro.pm';
+version $version;
 readme_from 'lib/Avro.pm';
+all_from 'lib/Avro.pm';
 build_requires 'Test::More', 0.88;
 test_requires 'Math::BigInt';
 test_requires 'Test::Exception';
@@ -35,4 +39,5 @@ unless ($Config{use64bitint}) {
     requires 'Math::BigInt';
 }
 auto_set_repository();
-WriteAll;
+
+WriteMakefile(PM_FILTER => "sed -e 's/\+\+MODULE_VERSION\+\+/$version/'");
