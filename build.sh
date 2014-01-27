@@ -116,6 +116,10 @@ case "$target" in
 
 	(cd lang/php; ./build.sh dist)
 
+        mkdir -p dist/perl
+	(cd lang/perl; make dist)
+        cp lang/perl/Avro-$VERSION.tar.gz dist/perl/
+
 	# build docs
 	(cd doc; ant)
 	(cd build; tar czf ../dist/avro-doc-$VERSION.tar.gz avro-doc-$VERSION)
