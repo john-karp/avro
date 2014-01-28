@@ -28,7 +28,7 @@ __END__
 
 =head1 NAME
 
-Avro - Modern Data Serializer
+Avro - official Perl API for the Avro serialization and RPC framework
 
 =head1 SYNOPSIS
 
@@ -38,21 +38,26 @@ Avro - Modern Data Serializer
 
 =head1 AUTHOR
 
-    Yann Kerherve E<lt>yannk@cpank.orgE<gt>
+Apache Avro <avro-dev@hadoop.apache.org>
+
+=head1 HISTORY
+
+Original development by Yann KerhervE<eacute> <yannk@cpank.org>
 
 =head1 CONTRIBUTORS
 
-    Andy Grundman <andy@hybridized.org>
-    David Bushong <dbushong@mashlogic.com>
-    Ilya Martynov <ilya@iponweb.net>
+S<Andy Grundman <andy@hybridized.org>>,
+S<David Bushong <dbushong@mashlogic.com>>,
+S<Ilya Martynov <ilya@iponweb.net>>.
 
 =head1 COPYRIGHT
 
-Copyright 2010- Yann Kerherve
+Copyright 2013 Apache Software Foundation.
 
 =head1 LICENSE
 
-See LICENSE.txt
+The Apache License, Version 2.0
+L<http://www.apache.org/licenses/LICENSE-2.0>
 
 =head1 SEE ALSO
 

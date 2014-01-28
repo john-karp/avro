@@ -1,22 +1,25 @@
 NAME
-    Avro - Modern Data Serializer
+    Avro - official Perl API for the Avro serialization and RPC framework
 
 SYNOPSIS
       use Avro;
 
 DESCRIPTION
 AUTHOR
-        Yann Kerherve E<lt>yannk@cpank.orgE<gt>
+    Apache Avro <avro-dev@hadoop.apache.org>
+
+HISTORY
+    Original development by Yann Kerhervé <yannk@cpank.org>
 
 CONTRIBUTORS
-        Andy Grundman <andy@hybridized.org>
-        David Bushong <dbushong@mashlogic.com>
-        Ilya Martynov <ilya@iponweb.net>
+    Andy Grundman <andy@hybridized.org>, David Bushong
+    <dbushong@mashlogic.com>, Ilya Martynov <ilya@iponweb.net>.
 
 COPYRIGHT
-    Copyright 2010- Yann Kerherve
+    Copyright 2013 Apache Software Foundation.
 
 LICENSE
-    See LICENSE.txt
+    The Apache License, Version 2.0
+    <http://www.apache.org/licenses/LICENSE-2.0>
 
 SEE ALSO
