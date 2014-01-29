@@ -9,14 +9,13 @@ AUTHOR
     Apache Avro <avro-dev@hadoop.apache.org>
 
 HISTORY
-    Original development by Yann Kerhervé <yannk@cpank.org>
-
-CONTRIBUTORS
+    Before contribution to the Apache Avro project, this module was
+    developed by Yann Kerhervé <yannk@cpank.org> with contributions from
     Andy Grundman <andy@hybridized.org>, David Bushong
-    <dbushong@mashlogic.com>, Ilya Martynov <ilya@iponweb.net>.
+    <dbushong@mashlogic.com>, and Ilya Martynov <ilya@iponweb.net>.
 
 COPYRIGHT
-    Copyright 2013 Apache Software Foundation.
+    Copyright 2014 Apache Software Foundation.
 
 LICENSE
     The Apache License, Version 2.0

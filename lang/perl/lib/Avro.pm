@@ -42,17 +42,14 @@ Apache Avro <avro-dev@hadoop.apache.org>
 
 =head1 HISTORY
 
-Original development by Yann KerhervE<eacute> <yannk@cpank.org>
-
-=head1 CONTRIBUTORS
-
-S<Andy Grundman <andy@hybridized.org>>,
-S<David Bushong <dbushong@mashlogic.com>>,
-S<Ilya Martynov <ilya@iponweb.net>>.
+Before contribution to the Apache Avro project, this module was 
+developed by Yann KerhervE<eacute> <yannk@cpank.org> with contributions 
+from Andy Grundman <andy@hybridized.org>, David Bushong 
+<dbushong@mashlogic.com>, and Ilya Martynov <ilya@iponweb.net>.
 
 =head1 COPYRIGHT
 
-Copyright 2013 Apache Software Foundation.
+Copyright 2014 Apache Software Foundation.
 
 =head1 LICENSE
 
